@@ -1,8 +1,7 @@
-
 # Dictionarys are "key" : "value"
 statuses = {"Alice": "online",
             "Bob": "offline",
-            "Eve": "online",      
+            "Eve": "online",
 }
 
 # function that takes dictionary "statuses" as parameter
@@ -24,6 +23,8 @@ def online_count(statuses):
             res = res + 1
     # print the string res 
     print("Frequency of x is : " +str(res))
-
+    
+    return (res)
+    
 # call the function    
 online_count(statuses)
